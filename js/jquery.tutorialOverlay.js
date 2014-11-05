@@ -379,7 +379,7 @@
                 var $veil = this._$overlay.find(VEIL_CLASS);
                 if (!$veil.length) {
                     //create and add a veil div
-                    $veil = $("<div class='" + VEIL_CLASS.substring(1) + "''></div>");
+                    $veil = $("<div class='" + VEIL_CLASS.substring(1) + "'></div>");
                     this._$overlay.prepend($veil);
 
                     //if (_hideOnClick) {
